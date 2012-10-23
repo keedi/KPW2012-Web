@@ -13,6 +13,8 @@ use String::Random::NiceURL qw( id );
 use Text::MultiMarkdown;
 use Try::Tiny;
 
+use KPW2012::Web::Patch::Markdown;
+
 my %DEFAULT_STASH = (
     active => q{},
     %{ plugin 'Config' },
